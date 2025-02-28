@@ -13,11 +13,11 @@
         private static bool MainMenu()
         {
             Console.Clear();
-            Console.WriteLine("Choose an option:");
-            Console.WriteLine("1) Choose Student to Answer Question");
-            Console.WriteLine("2) Get Random Groups Composition");
-            Console.WriteLine("3) Exit");
-            Console.Write("\r\nSelect an option: ");
+            Console.WriteLine("Escolha uma opção:");
+            Console.WriteLine("1) Escolher aluno para responder");
+            Console.WriteLine("2) Obter composição de grupos aleatória");
+            Console.WriteLine("3) Sair");
+            Console.Write("\r\nEscolha uma opção: ");
  
             switch (Console.ReadLine())
             {

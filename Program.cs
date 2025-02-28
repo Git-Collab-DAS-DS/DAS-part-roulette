@@ -36,7 +36,7 @@
  
         private static int CaptureInput()
         {
-            Console.Write("How many people per group?");
+            Console.Write("Quantas pessoas por grupo?");
             return Convert.ToInt32(Console.ReadLine());
         }
  
@@ -80,7 +80,7 @@
             var  index = random.Next(students.Count);
             
             Console.WriteLine(students[index]);
-            Console.Write("\r\nPress Enter to return to Main Menu");
+            Console.Write("\r\nPressione enter para regressar ao menu principal");
             Console.ReadLine();
         }
  
@@ -152,7 +152,7 @@
                 }
             }
 
-            Console.Write("\r\nPress Enter to return to Main Menu");
+            Console.Write("\r\nPressione enter para regressar ao menu principal");
             Console.ReadLine();
         }
     }
